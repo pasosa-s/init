@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$1" = "date" ]
+then
+	date | cut -d "(" -f1
+elif [ "$1" = "cal" ]
+then
+	cal
+elif [ "$1" = "weather" ]
+then
+	curl wttr.in
+else
+	echo "Usage: [date | cal | weather]"
+fi

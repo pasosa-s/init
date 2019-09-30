@@ -1,0 +1,4 @@
+- sudo nano /etc/hosts to edit the file.
+- add 46.19.122.85 intra.42.fr.
+- save changes with Control+O and then press Enter.
+- quit nano using Control+X.
